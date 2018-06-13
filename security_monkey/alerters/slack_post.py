@@ -16,7 +16,7 @@ def postMessage(attachment, type, tech, name):
     # Post to slack (uncomment these lines when you are setting up your token! 
     # slack_token = os.environ["SLACK_API_TOKEN"] #env variable stored key 
     
-    slack_token =thisisatempkey #use the one above when you are actually doing the setup 
+    slack_token ="thisisatempkey" #use the one above when you are actually doing the setup 
 
     sc = SlackClient(slack_token)
     channel = 'CHANNEL ID HERE' #test by posting to your own slack channel id, can be changed to any channel
