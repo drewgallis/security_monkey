@@ -18,7 +18,7 @@
 .. moduleauthor:: Drew Gallis <drew.gallis@willowtreeapps.com>
 """
 from security_monkey import app
-from slacktest import postMessage
+from slack_post import postMessage
 import os
 
 alerter_registry = []
